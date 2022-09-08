@@ -1,0 +1,1 @@
+Scripts on the project Low-level Programming with the directory 0x0-hello_world which consists of preprocessor, Compiler, Assembler, Name, Hello,puts, Hello,printf, Size is not gradeur, and territory does not make a nation, Intel and UNIX is basically a smiple operating system, but you have to be genius to understand the simplicity
