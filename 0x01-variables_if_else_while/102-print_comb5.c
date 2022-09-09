@@ -3,7 +3,7 @@
 /**
  * main - Prints numbers between 00 to 99.
  *
- * Retun: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 		g = 48;
 		while (g < 58)
 		{
-			e =48;
+			e = 48;
 			while (e < 58)
 			{
 				i = 48;
@@ -27,7 +27,7 @@ int main(void)
 					{
 						putchar(h);
 						putchar(g);
-						putchar(',');
+						putchar(' ');
 						putchar(e);
 						putchar(i);
 						if (h == 57 &&  g == 56 && e == 57 && i == 57)

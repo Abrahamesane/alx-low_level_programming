@@ -3,7 +3,7 @@
 /**
  * main - Prints numbers between oo to 89.
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
