@@ -5,9 +5,9 @@
  *
  * Return: Always 0 (Success)
  */
-int man(void)
+int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuwxyz";
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
 	for (i = 0; i < 26; i++)
