@@ -7,10 +7,12 @@
  *
  * Retun: Always 0 (Success)
  */
-int main(viod)
+int main(void)
 {
+	int n, 1;
+
 	srand(time(0));
-	n = rand() - REAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 	1 = n % 10;
 	if (1 > 5)
 	{
