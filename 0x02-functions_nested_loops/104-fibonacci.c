@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints the first 98 fibonacci numbers.
+ * main - Prints the first 98 fibonacci numbers starting with 1 and 2.
  *
  * Return: Always 0.
  */
@@ -14,7 +14,7 @@ int main(void)
 	n2 = 2;
 	b1 = b2 = 1;
 	printf("%ld, %ld", n1, n2);
-	for (a = 0; c < 96; c++)
+	for (a = 0; a < 96; a++)
 	{
 		if (b1)
 		{
