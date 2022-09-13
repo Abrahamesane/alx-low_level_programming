@@ -10,7 +10,7 @@
  * 0 is zero.
  * -1 is less than zero.
  */
-int print-sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
@@ -29,4 +29,3 @@ int print-sign(int n)
 	}
 	_putchar('\n');
 }
-

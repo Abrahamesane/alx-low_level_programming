@@ -7,11 +7,11 @@
  *
  * Return: last digit.
  */
-int print_last-digit(int n)
+int print_last_digit(int n)
 {
 	int l;
 
-	i = n % 10;
+	l = n % 10;
 	if (l < 0)
 	{
 		_putchar(-l + 48);
