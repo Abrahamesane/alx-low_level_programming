@@ -6,7 +6,7 @@
  *
  * @n: the input number as an integer.
  *
- * Return: 1 is greater than zero. 
+ * Return: 1 is greater than zero.
  * 0 is zero.
  * -1 is less than zero.
  */
