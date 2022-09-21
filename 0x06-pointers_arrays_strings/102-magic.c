@@ -12,4 +12,11 @@ int main(void)
 	 * write your line of code here...
 	 * - you are not aloowed to use a
 	 * - you are not allowed to modify p
-	 * only one statement
+	 * - only one statement
+	 * - you are not allowed to code anything esle than this line of code
+	 */
+	p[5] = 98;
+	/* ...so that this prints 98\n */
+	printf("a[2] = %d\n", a[2]);
+	return (0);
+}
