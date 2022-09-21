@@ -4,6 +4,7 @@
  * @s: input string.
  * Return: the pointer to dest.
  */
+
 char *cap_string(char *s)
 {
 	int count = 0, i;
@@ -16,9 +17,10 @@ char *cap_string(char *s)
 	{
 		for (i = 0; i < 13; i++)
 		{
-			if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
+			if (*(s + count) == sep_words[i])
 			{
-				*(s + (count + 1)) = *(s + (count + 1)) - 32;
+				if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
+					*(s + (count + 1)) = *(s + (count + 1)) - 32;
 				break;
 			}
 		}
