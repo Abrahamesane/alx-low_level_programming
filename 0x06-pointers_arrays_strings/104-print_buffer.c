@@ -5,7 +5,7 @@
  * print_buffer - prints a buffer
  * @b: buffer
  * @size: size of buffer.
- * @Return: no return.
+ * Return: no return.
  */
 void print_buffer(char *b, int size)
 {
@@ -15,7 +15,7 @@ void print_buffer(char *b, int size)
 		printf("\n");
 	else
 	{
-		for (j = 0; j < size; j += 10);
+		for (j = 0; j < size; j += 10)
 		{
 			printf("%.8x:", j);
 			for (k = j; k < j + 10; k++)

@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdoi.h>
+#include <stdio.h>
 /**
  * infinite_aa - adds two numbers
  * @n1: number one.
@@ -9,7 +9,7 @@
  * Return: the pointer to dest.
  */
 
-char *infinite-add(char *n1, char *n2, char *r, int size_r);
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int c1 = 0, c2 = 0, op, bg, dr1, dr2, add = 0;
 
