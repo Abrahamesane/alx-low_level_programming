@@ -1,31 +1,28 @@
 #include "main.h"
 
 /**
- * _strstr - finds the first occurrence of the substring.
- * needle in the string haystack.
- * @haystack: entire string.
- * @needle: substring.
- * Return: pointer to the beginning of located substring or
- * NULL if the substring is not found.
-*/
-char *_strstr(char *haystack, char *needle)
+ * _strspn - gets the length of a prefix substring.
+ * @s: initial segment.
+ * @accept: accept bytes.
+ * Return: the number of accepted bytes.
+ */
+unsigned int _strspn(char *s, char *accept)
 {
-	char *bhaystack;
-	char *pneedle;
+	unsigned int i, j, bool;
 
-	while (*haystack != '\0')
+	for (i = 0; *(s + i) != '\0'; i++)
 	{
-		bhaystack = haystack;
-		pneedle = needle;
-
-		while (*haystack != '\0' && *pneedle != '\0' && *haystack == *pneedle)
+		bool = 1;
+		for (j = 0; *(accept + j) != '\0'; j++)
 		{
-			haystack++;
-			pneedle++;
+			 if (*(s + i) == *(accept + j))
+			 {
+				 bool = 0;
+				 break;
+			 }
 		}
-		if (!*pneedle)
-			return (bhaystack);
-		haystack = bhaystack + 1;
+		if (bool == 1)
+			break;
 	}
-	return (0);
+	return (i);
 }
