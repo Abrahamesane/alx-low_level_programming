@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 /**
  * print_diagsums - prints the sum of the two
@@ -19,3 +19,4 @@ void print_diagsums(int *a, int size)
 			sum2 += *(a + i);
 	}
 	printf("%d, %d\n", sum1, sum2);
+}
