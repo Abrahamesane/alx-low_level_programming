@@ -38,7 +38,6 @@ void _is_zero(char *argv[])
  * _initialize_array - set memery to zero in a new array
  * @ar: char array.
  * @lar: length of the char array.
- *
  * Return: pointer of a char array.
  */
 char *_initialize_array(char *ar, int lar)
@@ -56,7 +55,6 @@ char *_initialize_array(char *ar, int lar)
  * and checks if number is in base 10.
  * @argv: arguments vector.
  * @n: row of the array.
- *
  * Return: length of the number.
  */
 int _checknum(char *argv[], int n)
@@ -78,7 +76,6 @@ int _checknum(char *argv[], int n)
  * program that multiplies two positive numbers.
  * @argc: number of arguments.
  * @argv: arguments vector.
- *
  * Return: 0 - success.
  */
 int main(int argc, char *argv[])
